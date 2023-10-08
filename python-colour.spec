@@ -37,4 +37,3 @@ Python module to convert between color representations:
 %doc CHANGELOG.rst README.rst
 %{python_sitelib}/colour.py
 %{python_sitelib}/colour-%{version}*-info
-%pycache_only %{python_sitelib}/__pycache__/*
