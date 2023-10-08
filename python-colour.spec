@@ -6,7 +6,6 @@ License:        BSD-2-Clause
 Group:          Development/Languages/Python
 URL:            https://github.com/vaab/colour
 Source0:        https://files.pythonhosted.org/packages/source/c/colour/colour-%{version}.tar.gz
-Source1:        pyproject.toml
 BuildRequires:  python-pip
 BuildRequires:  python-wheel
 BuildArch:      noarch
