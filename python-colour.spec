@@ -1,6 +1,6 @@
 Name:           python-colour
 Version:        0.1.5
-Release:        1
+Release:        2
 Summary:        Python module to convert between color representations (RGB, HSL, web)
 License:        BSD-2-Clause
 Group:          Development/Languages/Python
