@@ -6,8 +6,9 @@ License:        BSD-2-Clause
 Group:          Development/Languages/Python
 URL:            https://github.com/vaab/colour
 Source0:        https://files.pythonhosted.org/packages/source/c/colour/colour-%{version}.tar.gz
-BuildRequires:  python-pip
-BuildRequires:  python-wheel
+BuildRequires:  python%{pyver}dist(pip)
+BuildRequires:  python%{pyver}dist(wheel)
+BuildRequires:  python%{pyver}dist(setuptools)
 BuildArch:      noarch
 
 %description
