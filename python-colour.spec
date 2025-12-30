@@ -6,6 +6,7 @@ License:        BSD-2-Clause
 Group:          Development/Languages/Python
 URL:            https://github.com/vaab/colour
 Source0:        https://files.pythonhosted.org/packages/source/c/colour/colour-%{version}.tar.gz
+Patch0:         https://github.com/vaab/colour/pull/66.patch
 BuildRequires:  python%{pyver}dist(pip)
 BuildRequires:  python%{pyver}dist(wheel)
 BuildRequires:  python%{pyver}dist(setuptools)
@@ -25,7 +26,7 @@ Python module to convert between color representations:
     application being developed
 
 %prep
-%setup -q -n colour-%{version}
+%setup -q -n colour-%{version} -p1
 
 %build
 %py_build
