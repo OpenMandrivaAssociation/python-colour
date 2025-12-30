@@ -26,7 +26,7 @@ Python module to convert between color representations:
     application being developed
 
 %prep
-%setup -q -n colour-%{version} -p1
+%autosetup -n colour-%{version} -p1
 
 %build
 %py_build
