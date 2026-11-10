@@ -1,12 +1,12 @@
 Name:           python-colour
 Version:        0.1.5
-Release:        3
+Release:        4
 Summary:        Python module to convert between color representations (RGB, HSL, web)
 License:        BSD-2-Clause
 Group:          Development/Languages/Python
 URL:            https://github.com/vaab/colour
 Source0:        https://files.pythonhosted.org/packages/source/c/colour/colour-%{version}.tar.gz
-Patch0:         https://github.com/vaab/colour/pull/66.patch
+Patch0:         https://gitlab.archlinux.org/archlinux/packaging/packages/python-colour/-/raw/main/drop-d2to1-requirement.patch
 BuildRequires:  python%{pyver}dist(pip)
 BuildRequires:  python%{pyver}dist(wheel)
 BuildRequires:  python%{pyver}dist(setuptools)
